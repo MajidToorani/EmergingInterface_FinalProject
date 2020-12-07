@@ -1,0 +1,13 @@
+{
+    "name": "FinalPerojectEmergingInterface",
+    "version": "1.0.0",
+    "description": "Text to Speech",
+    "main": "index.html",
+    "scripts": {
+        "start": "index.html"
+    },
+    "dependencies": {
+        "express": "*"
+    },
+    "type": "module"
+}
