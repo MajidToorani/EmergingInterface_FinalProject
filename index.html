@@ -49,7 +49,7 @@
 				});
 			});
 			
-			// Initialize speech engine...
+			// Initialize speech engine
 			initSpeech();
 		</script>
 	</head>
@@ -57,25 +57,28 @@
 	<body>
 		<div data-role="page">
 			<div data-role="header">
-				<h1>SMART TEXT TO SPEECH</h1>
-				<center>
-					<input type='button' id='doTTS' value='Speak!'/>
-					<input type='button' id='doPauseResume' value='Pause/Resume'/>
-					<input type='button' id='doStop' value='Stop'/>
-					<input type='button' id='doClear' value='Clear'/>
-					<!-- <input type='button' id='doLangId' value='LangId'/> -->
-			  	</center>
+				<h1>SMART TEXT TO SPEECH</h1>				
 			</div>
 		
 			<div role="main" class="ui-content">
 				<fieldset>
-					<legend>Cut & Paste Text To Synthesize</legend>
+					<legend>Please Write or Cut & Paste Text then Click Speak Button</legend>
 					<textarea class='textareaClass' id='taInput' rows="12" cols="50"></textarea><br/>
 			  	</fieldset>
 			  <div id='statusMsg'></div>
+
+			  <div data-role="header" style="background-color:#ffdfb2;">
+				  <center>
+					  <input type='button' id='doTTS' value='Speak!'/>
+					  <input type='button' id='doPauseResume' value='Pause/Resume'/>
+					  <input type='button' id='doStop' value='Stop'/>
+					  <input type='button' id='doClear' value='Clear'/>
+					  <!-- <input type='button' id='doLangId' value='LangId'/> -->
+				  </center>
+			  </div></br>
 			  
 			  <div class="option voption">
-			  	<label for="rate">Voice</label>
+			  	<label for="rate">Select a Voice</label>
 			  	<select id='voice' name='voice'>
 			  	</select>
 			  </div>
@@ -102,7 +105,7 @@
 		
 		<script>
 			setTimeout(function() {
-				// Initialize the voices...
+				// Initialize the voices
 				doInitVoices();
 			}, 1);
 		</script>
