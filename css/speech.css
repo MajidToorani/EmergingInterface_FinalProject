@@ -1,3 +1,46 @@
-#doTTS  {
-    background-color:red" !important;
+.ui-title {
+    font-size: .75em !important;
+    color: #ffffff;
+}
+
+.ui-footer {
+    font-size: .75em !important;
+    color: #ffffff;
+}
+
+.ui-select .ui-btn>span:not(.ui-li-count) {
+    color: #ffffff;
+}
+
+.ui-input-btn input  {
+    background-color:#0084ff !important;
+}
+
+.ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit{
+    background-color:#00aeff;
+}
+
+.ui-slider-track {
+    background-color:#ffbb00 !important;
+}
+
+.ui-content{
+    background-color:#ffdfb2 !important;
+
+}
+
+.textareaClass {
+    background-color:#ffffff !important;
+}
+
+.ui-select .ui-btn {
+    background-color:#0460b6 !important;
+}
+
+.ui-btn.ui-slider-handle{
+    background-color:#3b7902 !important;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #3c799b !important;;
 }
